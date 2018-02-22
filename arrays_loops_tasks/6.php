@@ -3,10 +3,12 @@
 $arr = ['green' => 'зеленый', 
 		'red' => 'красный',
 		'blue' => 'голубой'];
-
-foreach ($arr as $en[] => $ru[]) {
-	
+$en = $ru = []; 
+foreach ($arr as $e => $r) {
+    $en[] = $e;
+    $ru[] = $r;
 }
+
 var_dump($en);
 
 var_dump($ru);
